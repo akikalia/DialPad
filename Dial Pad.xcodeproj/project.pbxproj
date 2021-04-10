@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F35F9F22568ADE800828597 /* DialPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35F9F12568ADE800828597 /* DialPadView.swift */; };
+		1F35F9F52568ADFF00828597 /* DialPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F35F9F42568ADFF00828597 /* DialPadView.xib */; };
+		1F35FA042568FAC100828597 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35FA032568FAC100828597 /* CallViewController.swift */; };
+		1F35FA092569022300828597 /* DialButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F35FA072569022200828597 /* DialButtonView.xib */; };
+		1F35FA0A2569022300828597 /* DialButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35FA082569022200828597 /* DialButtonView.swift */; };
+		1F4749C1256B3AAB004E7F3D /* TransparentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749C0256B3AAB004E7F3D /* TransparentNavigationController.swift */; };
+		1F4749DA256B66F2004E7F3D /* CallButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F4749D8256B66F2004E7F3D /* CallButtonView.xib */; };
+		1F4749DB256B66F2004E7F3D /* CallButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749D9256B66F2004E7F3D /* CallButtonView.swift */; };
+		1F4749E0256B6769004E7F3D /* BackspaceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749DE256B6769004E7F3D /* BackspaceButtonView.swift */; };
+		1F4749E1256B6769004E7F3D /* BackspaceButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F4749DF256B6769004E7F3D /* BackspaceButtonView.xib */; };
 		1F9F05DA25672965006740DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F05D925672965006740DC /* AppDelegate.swift */; };
 		1F9F05DC25672965006740DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F05DB25672965006740DC /* SceneDelegate.swift */; };
 		1F9F05DE25672965006740DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F05DD25672965006740DC /* ViewController.swift */; };
 		1F9F05E125672965006740DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F05DF25672965006740DC /* Main.storyboard */; };
 		1F9F05E32567296C006740DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F05E22567296C006740DC /* Assets.xcassets */; };
 		1F9F05E62567296C006740DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F05E42567296C006740DC /* LaunchScreen.storyboard */; };
+		1F9F05F92567A246006740DC /* BaseReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F05F82567A246006740DC /* BaseReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F35F9F12568ADE800828597 /* DialPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialPadView.swift; sourceTree = "<group>"; };
+		1F35F9F42568ADFF00828597 /* DialPadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialPadView.xib; sourceTree = "<group>"; };
+		1F35FA032568FAC100828597 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		1F35FA072569022200828597 /* DialButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialButtonView.xib; sourceTree = "<group>"; };
+		1F35FA082569022200828597 /* DialButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialButtonView.swift; sourceTree = "<group>"; };
+		1F4749C0256B3AAB004E7F3D /* TransparentNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavigationController.swift; sourceTree = "<group>"; };
+		1F4749D8256B66F2004E7F3D /* CallButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallButtonView.xib; sourceTree = "<group>"; };
+		1F4749D9256B66F2004E7F3D /* CallButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallButtonView.swift; sourceTree = "<group>"; };
+		1F4749DE256B6769004E7F3D /* BackspaceButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackspaceButtonView.swift; sourceTree = "<group>"; };
+		1F4749DF256B6769004E7F3D /* BackspaceButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackspaceButtonView.xib; sourceTree = "<group>"; };
 		1F9F05D625672965006740DC /* Dial Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "\aDial Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9F05D925672965006740DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F9F05DB25672965006740DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,7 @@
 		1F9F05E22567296C006740DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F9F05E52567296C006740DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F9F05E72567296C006740DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9F05F82567A246006740DC /* BaseReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F35F9F02568AD6300828597 /* DialPadView */ = {
+			isa = PBXGroup;
+			children = (
+				1F35F9F12568ADE800828597 /* DialPadView.swift */,
+				1F35F9F42568ADFF00828597 /* DialPadView.xib */,
+			);
+			path = DialPadView;
+			sourceTree = "<group>";
+		};
+		1F35F9FF2568D8CD00828597 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F05DD25672965006740DC /* ViewController.swift */,
+				1F35FA032568FAC100828597 /* CallViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1F35FA002568D8EB00828597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F05F525678AC4006740DC /* DialPadView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F35FA062569022200828597 /* DialButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				1F35FA072569022200828597 /* DialButtonView.xib */,
+				1F35FA082569022200828597 /* DialButtonView.swift */,
+			);
+			path = DialButtonView;
+			sourceTree = "<group>";
+		};
+		1F4749BF256B3A79004E7F3D /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F4749C0256B3AAB004E7F3D /* TransparentNavigationController.swift */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		1F4749D7256B66F2004E7F3D /* CallButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				1F4749D8256B66F2004E7F3D /* CallButtonView.xib */,
+				1F4749D9256B66F2004E7F3D /* CallButtonView.swift */,
+			);
+			path = CallButtonView;
+			sourceTree = "<group>";
+		};
+		1F4749DD256B6769004E7F3D /* BackspaceButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				1F4749DE256B6769004E7F3D /* BackspaceButtonView.swift */,
+				1F4749DF256B6769004E7F3D /* BackspaceButtonView.xib */,
+			);
+			path = BackspaceButtonView;
+			sourceTree = "<group>";
+		};
 		1F9F05CD25672965006740DC = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +139,29 @@
 		1F9F05D825672965006740DC /* Dial Pad */ = {
 			isa = PBXGroup;
 			children = (
+				1F35FA002568D8EB00828597 /* Views */,
+				1F35F9FF2568D8CD00828597 /* ViewControllers */,
+				1F4749BF256B3A79004E7F3D /* NavigationControllers */,
 				1F9F05D925672965006740DC /* AppDelegate.swift */,
 				1F9F05DB25672965006740DC /* SceneDelegate.swift */,
-				1F9F05DD25672965006740DC /* ViewController.swift */,
 				1F9F05DF25672965006740DC /* Main.storyboard */,
 				1F9F05E22567296C006740DC /* Assets.xcassets */,
 				1F9F05E42567296C006740DC /* LaunchScreen.storyboard */,
 				1F9F05E72567296C006740DC /* Info.plist */,
 			);
 			path = "\aDial Pad";
+			sourceTree = "<group>";
+		};
+		1F9F05F525678AC4006740DC /* DialPadView */ = {
+			isa = PBXGroup;
+			children = (
+				1F4749DD256B6769004E7F3D /* BackspaceButtonView */,
+				1F4749D7256B66F2004E7F3D /* CallButtonView */,
+				1F35FA062569022200828597 /* DialButtonView */,
+				1F35F9F02568AD6300828597 /* DialPadView */,
+				1F9F05F82567A246006740DC /* BaseReusableView.swift */,
+			);
+			path = DialPadView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +221,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F35F9F52568ADFF00828597 /* DialPadView.xib in Resources */,
+				1F4749DA256B66F2004E7F3D /* CallButtonView.xib in Resources */,
+				1F35FA092569022300828597 /* DialButtonView.xib in Resources */,
+				1F4749E1256B6769004E7F3D /* BackspaceButtonView.xib in Resources */,
 				1F9F05E62567296C006740DC /* LaunchScreen.storyboard in Resources */,
 				1F9F05E32567296C006740DC /* Assets.xcassets in Resources */,
 				1F9F05E125672965006740DC /* Main.storyboard in Resources */,
@@ -137,6 +238,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4749DB256B66F2004E7F3D /* CallButtonView.swift in Sources */,
+				1F35FA0A2569022300828597 /* DialButtonView.swift in Sources */,
+				1F35F9F22568ADE800828597 /* DialPadView.swift in Sources */,
+				1F9F05F92567A246006740DC /* BaseReusableView.swift in Sources */,
+				1F4749E0256B6769004E7F3D /* BackspaceButtonView.swift in Sources */,
+				1F35FA042568FAC100828597 /* CallViewController.swift in Sources */,
+				1F4749C1256B3AAB004E7F3D /* TransparentNavigationController.swift in Sources */,
 				1F9F05DE25672965006740DC /* ViewController.swift in Sources */,
 				1F9F05DA25672965006740DC /* AppDelegate.swift in Sources */,
 				1F9F05DC25672965006740DC /* SceneDelegate.swift in Sources */,
